@@ -1,0 +1,28 @@
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+
+  background-color: $herofootBackgroundColor;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../image/bg-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  max-width: 1600px;
+  margin: 0 auto;
+  flex-grow: 1;
+  color: $heroTextColor;
+}
+.hero__title {
+  font-family: $primaryFamily;
+  font-weight: $heroWeight;
+  font-size: $heroSize;
+  line-height: 1.36;
+  letter-spacing: $titleButtonLetterSpacing;
+  margin-bottom: 30px;
+}

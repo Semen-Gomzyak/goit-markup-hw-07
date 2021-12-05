@@ -1,0 +1,63 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+body {
+  background-color: $primaryBackgroundColor;
+  color: $primaryTextColor;
+  font-family: $primaryFamily;
+  letter-spacing: $primaryLetterSpacing;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.link {
+  text-decoration: none;
+  color: $primaryTextColor;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.primary-button {
+  font-family: $primaryFamily;
+  font-weight: $primaryTitleWeight;
+  background-color: $hoverBackgroundColor;
+  color: $heroTextColor;
+  font-size: $secondarySize;
+  line-height: 1.88;
+  letter-spacing: $titleButtonLetterSpacing;
+  text-align: center;
+  border: $hoverBackgroundColor;
+  border-radius: 4px;
+  border: 1px transparent;
+  padding: 10px 32px;
+}

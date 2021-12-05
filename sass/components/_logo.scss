@@ -1,0 +1,20 @@
+.logo {
+  color: $hoverTextColor;
+  text-decoration: none;
+  font-family: $secondaryFamily;
+  font-weight: $primaryTitleWeight;
+  font-size: $logoSize;
+  line-height: 1.19;
+  margin-right: 93px;
+}
+.logo__color {
+  color: $titleTextColor;
+}
+
+.logo__footer {
+  color: $heroTextColor;
+}
+
+.logo__item {
+  margin-bottom: 20px;
+}
